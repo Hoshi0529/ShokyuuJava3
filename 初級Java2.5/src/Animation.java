@@ -9,8 +9,8 @@ public class Animation extends MyFrame{
 			 // (2)四角形を表示する
 			 setColor(0,128,0);
 			 fillRect(x,80,10,100);
-			 x +=20;
-			 sleep(1);
+			 x +=5;
+			 sleep(0.1);
 			 
 		 }
 		 
