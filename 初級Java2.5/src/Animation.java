@@ -5,7 +5,7 @@ public class Animation extends MyFrame{
 		 int y = 100;
 		 int x =30;
 		 while(true){
-		 while(x<=170) {//永久に繰り返す
+			 while(x<=170) {//永久に繰り返す
 			 // (1)画面を消す
 			 clear();
 			 // (2)四角形を表示する
@@ -15,8 +15,8 @@ public class Animation extends MyFrame{
 			
 			 sleep(0.1);
 			 
-		 }
-		 while(x>=30) {//永久に繰り返す
+			 		}
+			 while(x>=30) {//永久に繰り返す
 			 // (1)画面を消す
 			 clear();
 			 // (2)四角形を表示する
@@ -27,9 +27,8 @@ public class Animation extends MyFrame{
 			 sleep(0.1);
 	 
 			 
-		 }
+			 		}
 		 
 		 }
 	 }
-	 
 }
