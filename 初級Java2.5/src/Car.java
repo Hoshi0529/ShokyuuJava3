@@ -11,12 +11,12 @@ public class Car {
 			
 	}
 	
-public void draw(MyFrame frame) {
+	public void draw(MyFrame frame) {
 		
-        frame.fillRect(43,170,45,16);
-		frame.fillRect(31,185,72,15);
-		frame.fillOval(35,200,20,20);
-		frame.fillOval(75,200,20,20);
+        frame.fillRect(x+13,y,45,16);
+		frame.fillRect(x+1,y+15,72,15);
+		frame.fillOval(x+5,y+30,20,20);
+		frame.fillOval(x+45,y+30,20,20);
 	}
 	public void move () {
 		

@@ -2,8 +2,8 @@
 public class DisplayFaceAndTree  extends MyFrame{
 	
 	public void run() {
-		Car Car1 = new Car(200,100,-10,-5);
-		Car Car2 = new Car(100,200,-10,-5);
+		Car Car1 = new Car(0,50,10,0);
+		Car Car2 = new Car(400,150,-10,-0);
 		
 		for(int i=0;i<30;i++ ) {
 			clear();
