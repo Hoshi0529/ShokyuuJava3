@@ -8,7 +8,6 @@ public class Animation extends MyFrame{
 		  while(true){
 			 while(x<=170) {
 				 clear();
-				 y = 50;
 				 setColor(0,128,0);
 				 fillRect(x,y,10,100);
 				 x+=5;
