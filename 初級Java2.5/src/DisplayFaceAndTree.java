@@ -2,15 +2,15 @@
 public class DisplayFaceAndTree  extends MyFrame{
 	
 	public void run() {
-		Face face1 = new Face(50,50,10,5);
-		Tree tree1 = new Tree(200,100,-10,-5);
+		Car Car1 = new Car(200,100,-10,-5);
+		Car Car2 = new Car(100,200,-10,-5);
 		
 		for(int i=0;i<30;i++ ) {
 			clear();
-			face1.draw(this);
-			tree1.draw(this);
-			face1.move();
-			tree1.move();
+			Car1.draw(this);
+			Car2.draw(this);
+			Car1.move();
+			Car2.move();
 			
 			sleep(0.1);
 			
