@@ -9,17 +9,21 @@ public class Face {
 	}
 	public void draw(MyFrame frame) {
 		
-		frame.fillOval(x, y, 50, 100);
-		frame.fillOval(x+100, y, 50, 100);
-		frame.fillRect(x, y+160, 150, 10);
+        frame.fillRect(x+13,y,45,16);
+        frame.fillRect(x+1,y+15,72,15);
+        frame.fillOval(x+5,y+30,20,20);
+        frame.fillOval(x+45,y+30,20,20);
 		
 		
 			
 		}
 	public void move () {
 		
+		
 		x+=vx;
-		y+=vy;
+		
+		
+		
 	}
 
 }
